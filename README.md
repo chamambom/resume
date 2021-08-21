@@ -6,18 +6,18 @@ _Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harar
 
 ## 👩🏼‍💻 Technical Experience 
 
-**Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
+**Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br><br>
 Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br><br>
 
-**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
+**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br><br>
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br><br>
 
-**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](http://meeshkan.com/) _(Apr 2009 - Feb 2012)_ <br>
+**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](http://meeshkan.com/) _(Apr 2009 - Feb 2012)_ <br><br>
 Early-stage startup focused on automated API testing and NLP.
   Hired to develop web based portals and database systems supporting mobile data collection for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
