@@ -8,20 +8,23 @@ _Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harar
 
 **Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
 Provides Network, Cloud and Cyber Security offerings through strategic partnerships with leading global players to the African continent.
-- Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
+
+Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br><br>
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Telecommunications service provider that provides converged communication and hosting solutions.
-- Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
+
+Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br><br>
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
 Part of a team hired to be part of a humanitarian project operating within the boundaries of the department of the community medicine.
-- Hired to support web based database systems and mobile data collection for humanitarian programmes carried out under 
+
+Hired to support web based database systems and mobile data collection for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
     
