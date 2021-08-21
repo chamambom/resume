@@ -74,7 +74,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Requirements. Planned Changes** To develop and implement a data strategy pipeline and provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
 **Period** - Jan - Mar 2020 <br>
 **Challenges Experienced** 
- - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. We have resolved to implement a 
+ - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. Resolved to implement a 
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
  
 **References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
