@@ -23,9 +23,9 @@ through automated monitoring systems & ITIL compliant service delivery processes
 <br><br>
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
-Part of a team hired to be part of a humanitarian project operating within the boundaries of the department of the community medicine.
+Part of a team committed to a humanitarian project operating within the boundaries of the department of the community medicine.
 
-Hired to support web based database systems and mobile data collection for humanitarian programmes carried out under 
+Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
     
