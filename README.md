@@ -224,30 +224,30 @@ hybrid deployment scenarios <br>
 ## 👩🏼‍🎓 Education
 
 **MSc In Data Analytics**<br>
-[Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_ <br>
+[Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_ <br>
 
 **BSc Honors In Computer Science** <br>
 [University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
 
-**Redhat Certified Systems Enginer** | _(Jan 2019 - Dec 2021)_ <br>
+**Redhat Certified Systems Enginer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
 
-**Redhat Certified Systems Administrator** | _(Jan 2019 - Dec 2021)_ <br>
+**Redhat Certified Systems Administrator** | 140-045-378 |  _(Feb 2014 - Feb 2017)_ <br>
 
-**Microsoft certified Azure Administrator** | _(Jan 2019 - Dec 2021)_ <br>
+**Microsoft certified Azure Administrator** | _(Nov 2020 - Nov 2022)_ <br>
 
-**Microsoft certified Data Engineer**  | _(Jan 2019 - Dec 2021)_ <br>
+**Microsoft certified Data Engineer**  | _(Sept 2020 - Sept 2022)_ <br>
 
-**Microsoft certified Azure Security Engineer** | _(Jan 2019 - Dec 2021)_ <br>
+**Microsoft certified Azure Security Engineer** | _(Jul 2021 - Jul 2023)_ <br>
 
-**Microsoft certified Data Analyst** | _(Jan 2019 - Dec 2021)_ <br> 
+**Microsoft certified Data Analyst** | _(Dec 2020 - Dec 2022)_ <br> 
 
-**Microsoft certified Solutions Associate : O365**  | _(Jan 2019 - Dec 2021)_ <br>
+**Microsoft certified Solutions Associate : O365**  | _(Dec 2018 - Present)_ <br>
 
-**CCNA**| _(Jan 2019 - Dec 2021)_ <br>
+**Cisco Certified Network Associate - CCNA**| _(Mar 2012 - Mar 2015)_ <br>
 
-**I.T.I.L Foundation certificate in IT Service management** | _(Jan 2019 - Dec 2021)_ <br>
+**I.T.I.L Foundation certificate in IT Service management** | _(Aug 2013 - Present)_ <br>
 
-**VMware Certified Associate Cloud** | _(Jan 2019 - Dec 2021)_ <br>
+**VMware Certified Associate Cloud** | _(Dec 2013 - Present)_ <br>
 
-**VMware Certified Associate (Datacentre Virtualisation)**| _(Jan 2019 - Dec 2021)_ <br> 
+**VMware Certified Associate (Datacentre Virtualisation)**| _(Nov 2013 - Present)_ <br> 
 
