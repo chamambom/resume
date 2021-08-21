@@ -38,7 +38,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  - Hybrid connectivity between Azure and irvines offices (with a mix of Mikrotiks and Sophos firewalls) - had overlapping subnets which needed to be changed. Additionally 
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
- - Access requirements required that we centralise some applications didnt support AD authentication , 
+ - Access requirements required that we centralise some applications didnt support AD authentication. _<br>
  **Reference** - Dave Michie <br>
 
 **Organisation** - [Cassava ](https://www.cassavasmarttech.co.zw/)<br>
