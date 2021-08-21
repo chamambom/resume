@@ -150,19 +150,10 @@ Sophos firewall for terminating Azure VPNs <br>
  server(s).<br>
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Econet Wireless Zimbabwe](https://www.econet.co.zw/)<br>
-**Existing Environment** -  <br>
-**Requirements. Planned Changes** -  <br> <br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - 
- **Reference** - Dave Michie <br>
-
 ## 📌 On The Side
 
-**Co-Organizer** @ [QueerJS](https://queerjs.com/) _(Jun 2019 - Present)_<br>
-🏳️‍🌈 A meetup for everyone where queer speakers take the stage.
-
+**SentScore** _(Jan 2021 - Present)_<br>
+🏳️‍🌈 A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB.
   <br><br>
 
 
@@ -193,35 +184,29 @@ hybrid deployment scenarios _<br>
 **Redhat Certified Systems Administrator** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**Microsoft certified Azure Administrator** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**Microsoft certified Data Engineer**<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**Microsoft certified Azure Security Engineer** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**Microsoft certified Data Analyst** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**Microsoft certified Solutions Associate : O365** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**CCNA** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**I.T.I.L Foundation certificate in IT Service management** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**	VMware Certified Associate Cloud** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**Redhat Certified Systems Administrator** studying Political Science<br>
-[Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
-
-**Redhat Certified Systems Administrator** studying Political Science<br>
-[Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
-
-**Redhat Certified Systems Administrator** studying Political Science<br>
+**	VMware Certified Associate (Datacentre Virtualisation)** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
