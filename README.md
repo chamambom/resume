@@ -7,24 +7,26 @@ _Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harar
 ## 👩🏼‍💻 Technical Experience 
 
 **Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
-Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
+Provides Network, Cloud and Cyber Security offerings through strategic partnerships with leading global players to the African continent.
+- Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br><br>
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
-Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
+Telecommunications service provider that provides converged communication and hosting solutions.
+- Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br><br>
 
-**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](http://meeshkan.com/) _(Apr 2009 - Feb 2012)_ <br>
-Early-stage startup focused on automated API testing and NLP.
-  Hired to develop web based portals and database systems supporting mobile data collection for humanitarian programmes carried out under 
+**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
+A humanitarian project operating within the boundaries of the department of the community medicine.
+- Hired to support web based database systems and mobile data collection for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
     
 ## 🏆 Projects | Accomplishments
-_This section accounts for all high value projects (Revenue and scope complexity) that i executed._
+_This section accounts for all high value projects where i made an impact._
 <br><br>
 **Organisation** - [Irvines Group ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
@@ -150,6 +152,17 @@ Sophos firewall for terminating Azure VPNs <br>
  server(s).<br>
  **Reference** - Dave Michie <br>
  
+ **Organisation** - [Africom | BOTSWANA](https://www.mcm.co.bw/)<br>
+**Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
+for a single record<br>
+**Requirements. Planned Changes** - Integrated 4 decentralised Bind DNS servers with facilemanager [http://www.facilemanager.com/]
+ providing a single management interface for creating customer DNS records<br> <br>
+**Period** - Mar - Jul 2020 <br>
+**Challenges Experienced** 
+ - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
+  as our the existing zones contained errors.<br>
+ **Reference** - Abisai Matangira  <br>
+ 
 ## 📌 On The Side
 
 **SentScore** _(Jan 2021 - Present)_<br>
@@ -205,8 +218,8 @@ hybrid deployment scenarios _<br>
 **I.T.I.L Foundation certificate in IT Service management** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**	VMware Certified Associate Cloud** studying Political Science<br>
+**VMware Certified Associate Cloud** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
 
-**	VMware Certified Associate (Datacentre Virtualisation)** studying Political Science<br>
+**VMware Certified Associate (Datacentre Virtualisation)** studying Political Science<br>
 [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2019 - Dec 2021)_
