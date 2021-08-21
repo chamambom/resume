@@ -59,7 +59,7 @@ tform based on 3rd party and azure analytics native software. <br>
   were overlooked only to be discovered when the project had started.We were forced to virtualize all the servers into HyperV and provided a temporary buffer server to
    aid the migration. 
  - Migration of the apps to the HyperV environment was manual and included engaging each vendor to verify if the application was compatible , which pushed the 
-  project timelines even further.
+  project timelines even further.<br>
  **Reference** - Simbarashe  <br>
  
 **Organisation** - [Econet Wireless Zimbabwe](https://www.econet.co.zw/)<br>
@@ -73,7 +73,7 @@ tform based on 3rd party and azure analytics native software. <br>
  components such as cisco spam filter in a successful hybrid scenario with exchange online - for email routing reasons.
  - Changes to the components of the network - allow exchange to communicate directly with exchange online required security experts (which we did not have) and a series of long 
  standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also cater to. We ended up proposing doing a clean migration after 
- being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.
+ being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  **References** - Adrin Muchatibaya , Tafadzwa   <br>
  
  **Organisation** - [Steward Bank Zimbabwe](https://www.stewardbank.co.zw/)<br>
@@ -84,7 +84,7 @@ tform based on 3rd party and azure analytics native software. <br>
 **Challenges Experienced** 
  - The exchange on-premise environment was unstable and kept corrupting the mailbox databases which affected the migration significantly.
  - After stabalising it , the assumption the customer had was that if the on-premise exchange servers are unreachable , it doesnt affect delivery.(email routing (mx) was 
- still pointing to their on-premise servers)
+ still pointing to their on-premise servers)<br>
  -
  **Reference** - Dave Michie <br>
  
@@ -95,7 +95,7 @@ tform based on 3rd party and azure analytics native software. <br>
 **Challenges Experienced** 
  - My first hybrid setup , i never anticipated that having mimecast routing the emails (3rd party software) which is outside the perimeter network was going to complicate 
   my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
-  originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.
+  originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
  
  **Reference** - Dave Michie <br>
  
@@ -106,7 +106,7 @@ every other mailbox on-premise<br> <br>
 **Period** - Mar - Jul 2020 <br>
 **Challenges Experienced** 
  - After we were done testing all the email routing scenarios and moved a couple of test mailboxes  , the client had been sold a dummy. Account manager had told the client that even if the on-premise server
- goes down , email routing wont be affected. (MX records were not pointing to the cloud)
+ goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
  **Reference** - Dave Michie <br>
  
  **Organisation** - [Zimre Holding](https://www.econet.co.zw/)<br>
@@ -117,7 +117,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **Challenges Experienced** 
  - The scoping did not cater for a robust identity solution , which forced us to migrate the AD to the cloud and keep seperate AD servers (On-premise and Clodu).Still feel
  like we could have done a better job.
- - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.
+ - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  **Reference** - Dave Michie <br>
  
  **Organisation** - [Rainbow Tourism Group (RGT)](https://www.stewardbank.co.zw/)<br>
@@ -127,7 +127,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **Challenges Experienced** 
  - The environment (Azure Stack ) the app was migrated doesnt not have a resource that can support layer 7 loadbalancing capabilities (SSL offloading , Path redirection).
  We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
- a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. 
+ a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
  **Reference** - Dave Michie <br>
  
@@ -137,7 +137,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **Period** - Mar - Jul 2020 <br>
 **Challenges Experienced** 
  - Felt like the setup was supposed to be a managed service - monitoring of server replication process , the coonfiguration server for physical servers and the on-premise microsoft backup server
- required someone with azure expertise. Client kept pushing requests to the vendor.
+ required someone with azure expertise. Client kept pushing requests to the vendor.<br>
  **Reference** - Dave Michie <br>
  
  **Organisation** - [Morupule Coal Mine (MCM) | BOTSWANA](https://www.mcm.co.bw/)<br>
@@ -147,7 +147,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **Challenges Experienced** 
  - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Kept 
  getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
- server(s).
+ server(s).<br>
  **Reference** - Dave Michie <br>
  
  **Organisation** - [Econet Wireless Zimbabwe](https://www.econet.co.zw/)<br>
@@ -156,30 +156,6 @@ Sophos firewall for terminating Azure VPNs <br>
 **Period** - Mar - Jul 2020 <br>
 **Challenges Experienced** 
  - 
- **Reference** - Dave Michie <br>
- 
- **Organisation** - [Steward Bank Zimbabwe](https://www.stewardbank.co.zw/)<br>
-**Existing Environment**  <br>
-**Requirements. Planned Changes**  <br> <br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - Access requirements required that we centralise some applications didnt support AD authentication , 
- **Reference** - Dave Michie <br>
- 
- **Organisation** - [Econet Wireless Zimbabwe](https://www.econet.co.zw/)<br>
-**Existing Environment** -  <br>
-**Requirements. Planned Changes** -  <br> <br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - 
- **Reference** - Dave Michie <br>
- 
- **Organisation** - [Steward Bank Zimbabwe](https://www.stewardbank.co.zw/)<br>
-**Existing Environment**  <br>
-**Requirements. Planned Changes**  <br> <br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - Access requirements required that we centralise some applications didnt support AD authentication , 
  **Reference** - Dave Michie <br>
 
 ## 📌 On The Side
