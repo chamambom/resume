@@ -44,7 +44,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
  - Access requirements required that we centralise some applications didnt support AD authentication. <br>
- **Reference** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
+**Reference** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
@@ -54,7 +54,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Challenges Experienced** 
  - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. We have resolved to implement a 
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
- **Reference** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
+**Reference** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
@@ -66,7 +66,7 @@ tform using on-premises servers and 3rd party software. <br>
    aid the migration. 
  - Migration of the apps to the HyperV environment was manual and included engaging each vendor to verify if the application was compatible , which pushed the 
   project timelines even further.<br>
- **Reference** - Simba Chavunduka [Email](mailto:simba@zesapf.co.zw ) <br>
+**Reference** - Simba Chavunduka [Email](mailto:simba@zesapf.co.zw ) <br>
  
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
@@ -80,7 +80,7 @@ tform using on-premises servers and 3rd party software. <br>
  - Changes to the components of the network - allow exchange to communicate directly with exchange online required security experts (which we did not have) and a series of long 
  standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also cater to. We ended up proposing doing a clean migration after 
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
- **References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw ), Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
+**References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw ), Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
@@ -92,7 +92,7 @@ tform using on-premises servers and 3rd party software. <br>
  - After stabalising it , the assumption the customer had was that if the on-premise exchange servers are unreachable , it doesnt affect delivery.(email routing (mx) was 
  still pointing to their on-premise servers)<br>
  -
- **Reference** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
+**Reference** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
@@ -102,8 +102,7 @@ tform using on-premises servers and 3rd party software. <br>
  - My first hybrid setup , i never anticipated that having mimecast routing the emails (3rd party software) which is outside the perimeter network was going to complicate 
   my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
   originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
- 
- **Reference** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
+**Reference** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
  
  **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
@@ -113,7 +112,7 @@ every other mailbox on-premise<br> <br>
 **Challenges Experienced** 
  - After we were done testing all the email routing scenarios and moved a couple of test mailboxes  , the client had been sold a dummy. Account manager had told the client that even if the on-premise server
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
- **Reference** -  <br>
+**Reference** -  <br>
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
@@ -124,7 +123,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - The scoping did not cater for a robust identity solution , which forced us to migrate the AD to the cloud and keep seperate AD servers (On-premise and Clodu).Still feel
  like we could have done a better job.
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
- **Reference** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
+**Reference** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
  
  **Organisation** - [Rainbow Tourism Group (RGT)](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
@@ -135,7 +134,7 @@ Sophos firewall for terminating Azure VPNs <br>
  We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
  a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
- **Reference** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
+**Reference** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | BOSTWANA](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -144,7 +143,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **Challenges Experienced** 
  - Felt like the setup was supposed to be a managed service - monitoring of server replication process , the coonfiguration server for physical servers and the on-premise microsoft backup server
  required someone with azure expertise. Client kept pushing requests to the vendor.<br>
- **Reference** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
+**Reference** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
  
  **Organisation** - [Morupule Coal Mine (MCM) | BOTSWANA](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
@@ -154,7 +153,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Kept 
  getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
  server(s).<br>
- **Reference** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
+**Reference** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
  
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
