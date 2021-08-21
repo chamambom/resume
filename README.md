@@ -38,16 +38,16 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  - Hybrid connectivity between Azure and irvines offices (with a mix of Mikrotiks and Sophos firewalls) - had overlapping subnets which needed to be changed. Additionally 
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
- - Access requirements required that we centralise some applications didnt support AD authentication. _<br>
+ - Access requirements required that we centralise some applications didnt support AD authentication. <br>
  **Reference** - Dave Michie <br>
 
 **Organisation** - [Cassava ](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
-tform based on 3rd party and azure analytics native software <br>
+tform based on 3rd party and azure analytics native software. <br>
 **Requirements. Planned Changes** To provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse <br> <br>
 **Period** - Jan - Mar 2020 <br>
 **Challenges Experienced** 
- -  
+ -  xvx
  **Reference** - Dave Michie <br>
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Retirement](https://www.zeipf.co.zw//)<br>
