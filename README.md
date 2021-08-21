@@ -44,7 +44,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
  - Access requirements required that we centralise some applications didnt support AD authentication. <br>
-**Reference** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
+**References** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
