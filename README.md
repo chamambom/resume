@@ -13,17 +13,20 @@ Provides Network, Cloud and Cyber Security offerings through strategic partnersh
 Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
-<br><br>
+<br>
+
+<hr style="border:1px solid gray"> </hr>
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Telecommunications service provider that provides converged communication and hosting solutions.
 
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
-<br><br>
+<br>
+<hr style="border:1px solid gray"> </hr>
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
-Part of a team committed to a humanitarian project operating within the boundaries of the department of the community medicine.
+Humanitarian project operating within the boundaries of the department of the community medicine.
 
 Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
@@ -32,6 +35,8 @@ Hired to work with Java and C# developers to develop and support health manageme
 ## 🏆 Projects | Accomplishments
 _This section accounts for some of my high value projects where i made an impact ._
 <br><br>
+<hr style="border:1px solid gray"> </hr>
+
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
 (HR management software ,ERP automatica running on either HyperV or Physical servers. Various sites are running either a Sophos or a Mikrotik firewall). <br>
@@ -48,6 +53,8 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  
  **References** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
  
+ <hr style="border:1px solid gray"> </hr>
+ 
 **Organisation** - [Liquid Intelligent Technologies | Zimbabwe](https://www.liquid.tech.co.zw/)<br>
 **Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
 **Requirements. Planned Changes** To upgrade the VMware ESxi cluster by adding 10 more Dell M630 Blades/M1000e 
@@ -59,6 +66,8 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
  
 **References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
 
+<hr style="border:1px solid gray"> </hr>
+
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
 tform using on-premises servers and 3rd party software. <br>
@@ -69,6 +78,8 @@ tform using on-premises servers and 3rd party software. <br>
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
  
 **References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
+
+<hr style="border:1px solid gray"> </hr>
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
@@ -82,6 +93,8 @@ tform using on-premises servers and 3rd party software. <br>
   project timelines even further.<br>
   
 **References** - Simba Chavunduka [Email](mailto:simba@zesapf.co.zw ) <br>
+ 
+ <hr style="border:1px solid gray"> </hr>
  
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
@@ -97,6 +110,8 @@ tform using on-premises servers and 3rd party software. <br>
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  
 **References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw ), Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
+
+ <hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
@@ -109,6 +124,7 @@ tform using on-premises servers and 3rd party software. <br>
  still pointing to their on-premise servers)<br>
  
 **References** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
+ <hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
@@ -120,6 +136,7 @@ tform using on-premises servers and 3rd party software. <br>
   originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
   
 **References** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
@@ -131,6 +148,7 @@ every other mailbox on-premise<br>
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
  
 **References** -  <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
@@ -143,6 +161,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  
 **References** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Rainbow Tourism Group (RGT)](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
@@ -154,6 +173,7 @@ Sophos firewall for terminating Azure VPNs <br>
  a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
 **References** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | BOSTWANA](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -165,6 +185,7 @@ required by audit   <br>
  required someone with azure expertise. Client kept pushing requests to the vendor.<br>
  
 **References** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Morupule Coal Mine (MCM) | BOTSWANA](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
@@ -176,6 +197,7 @@ required by audit   <br>
  server(s).<br>
  
 **References** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
+<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
@@ -188,6 +210,7 @@ for a single record<br>
   as our the existing zones contained errors.<br>
   
 **References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>
+<hr style="border:1px solid gray"> </hr>
  
  
 **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
@@ -200,19 +223,22 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  - The initial setup lacked redundancy both from a compute and storage perspective <br>
  
 **References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>  <br>
+<hr style="border:1px solid gray"> </hr>
  
 ## 📌 On The Side
 
 **SentScore** _(Jan 2021 - Present)_<br>
 🏳️‍🌈 A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB.
   <br><br>
-
+  
+<hr style="border:1px solid gray"> </hr>
 
 ## 🎤 Most Difficult customers 
 🐻 Customers who dont understand their own application , network and server configurations and the contribution to the complexity of the project especially in 
 hybrid deployment scenarios <br>
 🐻 customers with an I.T department reporting to the finance department - Most of the time , the I.T team is not technical <br>
 
+<hr style="border:1px solid gray"> </hr>
   
 ## 💬 Languages
 
@@ -223,11 +249,9 @@ hybrid deployment scenarios <br>
 
 ## 👩🏼‍🎓 Education
 
-**MSc In Data Analytics**<br>
-[Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_ <br>
+**MSc In Data Analytics**  [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_ <br>
 
-**BSc Honors In Computer Science** <br>
-[University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
+**BSc Honors In Computer Science** [University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
 
 **Redhat Certified Systems Enginer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
 
