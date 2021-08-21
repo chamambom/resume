@@ -2,36 +2,53 @@
 
 _Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harare, Zimbabwe_ <br>
 
-[Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/) / [DEV](https://dev.to/chamambom/)
+[Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/)
 
 ## 👩🏼‍💻 Technical Experience 
 
-**Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br><br>
+**Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
 Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br><br>
 
-**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br><br>
+**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br><br>
 
-**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](http://meeshkan.com/) _(Apr 2009 - Feb 2012)_ <br><br>
+**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](http://meeshkan.com/) _(Apr 2009 - Feb 2012)_ <br>
 Early-stage startup focused on automated API testing and NLP.
   Hired to develop web based portals and database systems supporting mobile data collection for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
- <br><br>
+ <br>
     
-## 🗞 Projects
-
-_This section only accounts for work done post-career change._
+## 🗞 Projects | Accomplishments
+_This section accounts for all high value projects (revenue and complexity) that i executed._
 <br><br>
+**Organisation** - [Irvines Group ](https://www.irvinesafrica.com/)<br>
+**Project summary** - Irvines has operations in SouthAfrica , Bostwana ,Zambia ,Mozambique and Zimbabwe , I developed a cloud migration roadmap that required us to consolidate 
+all their on-premise applications while maintaining a hybrid environment using IPSec VPNs to facilitate a gradual migration of their applications to Azure. <br>
+**Existing Environment** - Irvines Group has business applications and network devices (HR management app , ERP app and etc,
+ Sophos and Mikrotik firewalls) located . The ERP software running automatica was migrated to a managed SQL db while most of the applications 
+ due to compatibility were hosted on SQL server hosted on a virtual machine)<br>
+**Requirements. Planned Changes** - <br>
+**Period** - year 2020 <br>
+**Challenges Experienced** -
+ - We initially scoped the applications to be hosted on Azure SQL but we were faced with compatibility issues from legacy code and 
+ we settled for Azure SQL managed instance which caters for an on-prem lift and shift.
+ - Hybrid connectivity between Azure and irvines offices (with a mix of Mikrotiks and Sophos firewalls) - had overlapping subnets which needed to be changed. Additionally 
+ because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
+  we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
+ - Access requirements required that we centralise some applications didnt support AD authentication , 
+ **Reference** - Dave Michie <br>
 
 **Contributing Writer** @ [Future of Sex](https://futureofsex.net/author/carolyn/) _(Dec 2020 - Present)_ <br>
 Online publication that provides insights into the future of human sex and sexuality.
   - Writing regular features focused on sexual health and identity
   - Reporting on events that are relevant to the sex tech community
+ 
+ <br>
   - **_Selected articles:_**
     - [Does Having an IUD Make You a Biohacker or a Cyborg?](https://futureofsex.net/augmentation/does-having-an-iud-make-you-a-biohacker-or-a-cyborg/)
     - [Exploring Queerness By Switching Up My Vibrators](https://futureofsex.net/sex-tech/exploring-queerness-by-switching-up-my-vibrators/)
