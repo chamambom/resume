@@ -50,7 +50,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Period** - Jan - Mar 2020 <br>
 **Challenges Experienced** 
  - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. We have resolved to implement a 
- data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.
+ data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
  **Reference** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
@@ -132,7 +132,7 @@ Sophos firewall for terminating Azure VPNs <br>
  We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
  a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
- **Reference** - Taremeredzwa Chipepera [Email](mailto: taremeredzwa.ch@rtg.co.zw) <br>
+ **Reference** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | BOSTWANA](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -162,10 +162,10 @@ for a single record<br>
 **Challenges Experienced** 
  - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
   as our the existing zones contained errors.<br>
- **Reference** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>
+**Reference** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>
  
  
- **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
+**Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Environment comprised operational and business support systems running on old commodity hardware (tower and rack servers). 
 for a single record<br>
 **Requirements. Planned Changes** - To consolidate applications and servers. Designed and implemented a 2 node KVM cluster on 2 Sun blades X6270/chassis 6000 
@@ -173,7 +173,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 **Period** - Mar - Jul 2020 <br>
 **Challenges Experienced** 
  - The initial setup lacked redundancy both from a compute and storage perspective <br>
- **Reference** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>  <br>
+**Reference** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>  <br>
  
 ## 📌 On The Side
 
