@@ -20,7 +20,7 @@ through automated monitoring systems & ITIL compliant service delivery processes
 <br><br>
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
-A humanitarian project operating within the boundaries of the department of the community medicine.
+Part of a team hired to be part of a humanitarian project operating within the boundaries of the department of the community medicine.
 - Hired to support web based database systems and mobile data collection for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
@@ -28,7 +28,7 @@ A humanitarian project operating within the boundaries of the department of the 
 ## 🏆 Projects | Accomplishments
 _This section accounts for all high value projects where i made an impact._
 <br><br>
-**Organisation** - [Irvines Group ](https://www.irvinesafrica.com/)<br>
+**Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
 (HR management software ,ERP automatica running on either HyperV or Physical servers. Various sites are running either a Sophos or a Mikrotik firewall). <br>
 **Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment 
@@ -41,9 +41,9 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
  - Access requirements required that we centralise some applications didnt support AD authentication. <br>
- **Reference** - Dave Michie <br>
+ **Reference** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
 
-**Organisation** - [Cassava ](https://www.cassavasmarttech.co.zw/)<br>
+**Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
 tform based on 3rd party and azure analytics native software. <br>
 **Requirements. Planned Changes** To provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse <br> <br>
@@ -52,7 +52,7 @@ tform based on 3rd party and azure analytics native software. <br>
  -  xvx
  **Reference** - Dave Michie <br>
 
-**Organisation** - [Zimbabwe Electricity Industry Pension Fund | Retirement](https://www.zeipf.co.zw//)<br>
+**Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
 **Requirements. Planned Changes** - Develop and Implement a business continuity and disaster recover plan (BCDR) using Azure Site recovery. <br> <br>
 **Period** - Mar - Jul 2020 <br>
@@ -64,7 +64,7 @@ tform based on 3rd party and azure analytics native software. <br>
   project timelines even further.<br>
  **Reference** - Simbarashe  <br>
  
-**Organisation** - [Econet Wireless Zimbabwe](https://www.econet.co.zw/)<br>
+**Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
  of 2385 mailboxes utilising a total of 10TB.  <br>
 **Requirements. Planned Changes** - Migrate all mailboxes to O365 gradually using the hybrid move <br> <br>
@@ -78,7 +78,7 @@ tform based on 3rd party and azure analytics native software. <br>
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  **References** - Adrin Muchatibaya , Tafadzwa   <br>
  
- **Organisation** - [Steward Bank Zimbabwe](https://www.stewardbank.co.zw/)<br>
+ **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
  spam filtering<br>
 **Requirements. Planned Changes** Migrate some users to exchange online and leave some users on-premise <br> <br>
@@ -90,7 +90,7 @@ tform based on 3rd party and azure analytics native software. <br>
  -
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Edgars](https://www.econet.co.zw/)<br>
+ **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
 **Requirements. Planned Changes** - Migrate all mailboxes to the cloud and still utilise mimecast for spam filtering. <br> <br>
 **Period** - Mar - Jul 2020 <br>
@@ -101,7 +101,7 @@ tform based on 3rd party and azure analytics native software. <br>
  
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Datlabs Zimbabwe](https://www.stewardbank.co.zw/)<br>
+ **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
 **Requirements. Planned Changes** - Configure a Hybrid setup for both AD and Exchange on-premise and migrate mailboxes for executives to the cloud and leave 
 every other mailbox on-premise<br> <br>
@@ -111,7 +111,7 @@ every other mailbox on-premise<br> <br>
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Zimre Holding](https://www.econet.co.zw/)<br>
+ **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
 Sophos firewall for terminating Azure VPNs <br>
 **Requirements. Planned Changes** -  Migrate all servers to the cloud and configure hybrid connnectivity using azure S2S and P2S <br> <br>
@@ -122,7 +122,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Rainbow Tourism Group (RGT)](https://www.stewardbank.co.zw/)<br>
+ **Organisation** - [Rainbow Tourism Group (RGT)](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
 **Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for "whitelisting traffic" purposes. <br> <br>
 **Period** - Mar - Jul 2020 <br>
@@ -152,7 +152,7 @@ Sophos firewall for terminating Azure VPNs <br>
  server(s).<br>
  **Reference** - Dave Michie <br>
  
- **Organisation** - [Africom | BOTSWANA](https://www.mcm.co.bw/)<br>
+ **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
 for a single record<br>
 **Requirements. Planned Changes** - Integrated 4 decentralised Bind DNS servers with facilemanager [http://www.facilemanager.com/]
@@ -161,6 +161,17 @@ for a single record<br>
 **Challenges Experienced** 
  - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
   as our the existing zones contained errors.<br>
+ **Reference** - Abisai Matangira  <br>
+ 
+ 
+ **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
+**Existing On-premise Environment** - Environment comprised operational and business support systems running on old commodity hardware (tower and rack servers). 
+for a single record<br>
+**Requirements. Planned Changes** - To consolidate applications and servers. Designed and implemented a 2 node KVM cluster on 2 Sun blades X6270/chassis 6000 
+each with teamed interfaces connecting to 30 TBs of storage made from commodity hardware<br> <br>
+**Period** - Mar - Jul 2020 <br>
+**Challenges Experienced** 
+ - The initial setup lacked redundancy both from a compute and storage perspective <br>
  **Reference** - Abisai Matangira  <br>
  
 ## 📌 On The Side
