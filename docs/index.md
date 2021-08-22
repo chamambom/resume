@@ -38,7 +38,7 @@ _This section accounts for some of my high value (reducing cost and operational 
 (HR management software ,ERP automatica running on either HyperV or Physical servers. Various sites are running either a Sophos or a Mikrotik firewall). <br>
 **Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment 
 using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure. <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 6 months <br>
 **Challenges Experienced** 
  - We initially scoped the applications to be hosted on Azure SQL but we were faced with compatibility issues due to legacy code and 
  we settled for Azure SQL managed instance and SQL server (on a VM) which caters for an on-prem lift and shift.
@@ -55,7 +55,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
 **Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
 **Requirements. Planned Changes** To upgrade the VMware ESxi cluster by adding 10 more Dell M630 Blades/M1000e 
 chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell Power Connect M6348 storage switches and 5x Dell PS 6610 EqualLogic arrays<br>
-**Period** - Jan - Mar 2020 <br>
+**Duration** - 4 months <br>
 **Challenges Experienced** 
  - Maintenance and monitoring of storage and compute required dedicated resources. Most of the time active/standby controllers would fail affecting all VMs that have 
   their vmdks stored on that array. A power cycle of the VMs would be required as vms went into invalid or inconsistent states<br>
@@ -68,7 +68,7 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
 tform using on-premises servers and 3rd party software. <br>
 **Requirements. Planned Changes** To develop and implement a data strategy pipeline and provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
-**Period** - Jan - Mar 2020 <br>
+**Duration** -2 months <br>
 **Challenges Experienced** 
  - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. Resolved to implement a 
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
@@ -80,7 +80,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
 **Requirements. Planned Changes** - Develop and Implement a business continuity and disaster recover plan (BCDR) using Azure Site recovery. <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 3 months <br>
 **Challenges Experienced** 
  - Wrong scoping , Azure Site recovery supports Physical servers but some of the pre-requisites required for a successfull replication (Operating system disk count and Operating system disk size) 
   were overlooked only to be discovered when the project had started.We were forced to virtualize all the servers into HyperV and provided a temporary buffer server to
@@ -95,7 +95,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
  of 2385 mailboxes utilising a total of 10TB.  <br>
 **Requirements. Planned Changes** - Migrate all mailboxes to O365 gradually using the hybrid move <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 8 months  <br>
 **Challenges Experienced** 
  - The datacenter network protecting the mail and AD servers was so complex , the existing team (which wasnt available when it was setup) , did not understand 
  all the network components involved. The network setup prevented the hybrid wizard to complete successfully. Microsoft documentation assumes that there are no 3rd party 
@@ -111,7 +111,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
  spam filtering<br>
 **Requirements. Planned Changes** Migrate some users to exchange online and leave some users on-premise <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 2 months <br>
 **Challenges Experienced** 
  - The exchange on-premise environment was unstable and kept corrupting the mailbox databases which affected the migration significantly.
  - After stabalising it , the assumption the customer had was that if the on-premise exchange servers are unreachable , it doesnt affect delivery.(email routing (mx) was 
@@ -123,7 +123,7 @@ tform using on-premises servers and 3rd party software. <br>
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
 **Requirements. Planned Changes** - Migrate all mailboxes to the cloud and still utilise mimecast for spam filtering. <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 1 month<br>
 **Challenges Experienced** 
  - My first hybrid setup , i never anticipated that having mimecast routing the emails (3rd party software) which is outside the perimeter network was going to complicate 
   my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
@@ -136,7 +136,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
 **Requirements. Planned Changes** - Configure a Hybrid setup for both AD and Exchange on-premise and migrate mailboxes for executives to the cloud and leave 
 every other mailbox on-premise<br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 1 month <br>
 **Challenges Experienced** 
  - After we were done testing all the email routing scenarios and moved a couple of test mailboxes  , the client had been sold a dummy. Account manager had told the client that even if the on-premise server
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
@@ -148,7 +148,7 @@ every other mailbox on-premise<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
 Sophos firewall for terminating Azure VPNs <br>
 **Requirements. Planned Changes** -  Migrate all servers to the cloud and configure hybrid connnectivity using azure S2S and P2S <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 2 months  <br>
 **Challenges Experienced** 
  - The scoping did not cater for a robust identity solution , which forced us to migrate the AD to the cloud and keep seperate AD servers (On-premise and Clodu).Still feel
  like we could have done a better job.
@@ -159,7 +159,7 @@ Sophos firewall for terminating Azure VPNs <br>
  **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
 **Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for "whitelisting traffic" purposes.<br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 1 month <br>
 **Challenges Experienced** 
  - The environment (Azure Stack ) the app was migrated doesnt not have a resource that can support layer 7 loadbalancing capabilities (SSL offloading , Path redirection).
  We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
@@ -173,10 +173,11 @@ Sophos firewall for terminating Azure VPNs <br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
 **Requirements. Planned Changes** - Configured a disaster recovery (Azure Site Recovery (ASR)) and Azure Backup (MABS) setup to provide a remote BCDR plan as 
 required by audit   <br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 3 months <br>
 **Challenges Experienced** 
- - Felt like the setup was supposed to be a managed service - monitoring of server replication process , the coonfiguration server for physical servers and the on-premise microsoft backup server
- required someone with azure expertise. Client kept pushing requests to the vendor.<br>
+ - Monitoring of the server replication process , the configuration server for physical servers and the on-premise microsoft backup server
+ required someone with azure expertise. Client kept pushing requests to the vendor. Felt like this was supposed to be a managed service but client was 
+ having non of it<br>
  
 **References** -  <br>
 
@@ -185,10 +186,10 @@ required by audit   <br>
  **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
 **Requirements. Planned Changes** - Backup all servers to Azure<br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 3 months <br>
 **Challenges Experienced** 
- - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Kept 
- getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
+ - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Backups 
+ kept getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
  server(s).<br>
  
 **References** - <br>
@@ -199,7 +200,7 @@ required by audit   <br>
 for a single record<br>
 **Requirements. Planned Changes** - Integrated 4 decentralised Bind DNS servers with facilemanager [http://www.facilemanager.com/]
  providing a single management interface for creating customer DNS records<br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 1 month <br>
 **Challenges Experienced** 
  - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
   as our the existing zones contained errors.<br>
@@ -213,7 +214,7 @@ for a single record<br>
 for a single record<br>
 **Requirements. Planned Changes** - To consolidate applications and servers. Designed and implemented a 2 node KVM cluster on 2 Sun blades X6270/chassis 6000 
 each with teamed interfaces connecting to 30 TBs of storage made from commodity hardware<br>
-**Period** - Mar - Jul 2020 <br>
+**Duration** - 2 month <br>
 **Challenges Experienced** 
  - The initial setup lacked redundancy both from a compute and storage perspective <br>
  
@@ -223,26 +224,26 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 ## 📌 On The Side
 
-🏳️‍🌈 **SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
-🏳️‍🌈 Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
-🏳️‍🌈 Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
-🏳️‍🌈 Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
-🏳️‍🌈 Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
+🏳️**SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
+🏳️Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
+🏳️Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
+🏳️‍Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
+🏳️Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
 <br>
   
 
 
 ## 🎤 Most Difficult customers (According to me)
-💖 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
-💖 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
-💖 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
-💖 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
-💖 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
-💖 Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
-💖 Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
-💖 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
+- Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
+- Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
+- Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
+- Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
+- Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
+- Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
+- Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
+- Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
 
-🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
+💖 **Well you are out of luck -  customer always wins - deal with it** 
 
 - - -
 ## 💬 Languages
