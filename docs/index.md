@@ -51,7 +51,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
  - Access requirements required that we centralise some applications didnt support AD authentication. <br>
  
- **References** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
+ **References** - <br>
  
 
  
@@ -64,7 +64,7 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
  - Maintenance and monitoring of storage and compute required dedicated resources. Most of the time active/standby controllers would fail affecting all VMs that have 
   their vmdks stored on that array. A power cycle of the VMs would be required as vms went into invalid or inconsistent states<br>
  
-**References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
+**References** - <br>
 
 
 
@@ -77,7 +77,7 @@ tform using on-premises servers and 3rd party software. <br>
  - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. Resolved to implement a 
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
  
-**References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
+**References** - <br>
 
 
 
@@ -92,8 +92,7 @@ tform using on-premises servers and 3rd party software. <br>
  - Migration of the apps to the HyperV environment was manual and included engaging each vendor to verify if the application was compatible , which pushed the 
   project timelines even further.<br>
   
-**References** - Simba Chavunduka [Email](mailto:simba@zesapf.co.zw ) <br>
- 
+**References** - <br>
 
  
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
@@ -109,7 +108,7 @@ tform using on-premises servers and 3rd party software. <br>
  standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also cater to. We ended up proposing doing a clean migration after 
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  
- **References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw )|  Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
+ **References** - <br>
 
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
@@ -122,7 +121,7 @@ tform using on-premises servers and 3rd party software. <br>
  - After stabalising it , the assumption the customer had was that if the on-premise exchange servers are unreachable , it doesnt affect delivery.(email routing (mx) was 
  still pointing to their on-premise servers)<br>
  
-**References** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
+**References** - <br>
 
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
@@ -134,7 +133,7 @@ tform using on-premises servers and 3rd party software. <br>
   my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
   originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
   
-**References** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
+**References** - <br>
 
  
  **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
@@ -159,7 +158,7 @@ Sophos firewall for terminating Azure VPNs <br>
  like we could have done a better job.
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  
-**References** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
+**References** - <br>
 
  
  **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
@@ -171,7 +170,7 @@ Sophos firewall for terminating Azure VPNs <br>
  We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
  a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
-**References** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
+**References** -<br>
 
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
@@ -183,7 +182,7 @@ required by audit   <br>
  - Felt like the setup was supposed to be a managed service - monitoring of server replication process , the coonfiguration server for physical servers and the on-premise microsoft backup server
  required someone with azure expertise. Client kept pushing requests to the vendor.<br>
  
-**References** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
+**References** -  <br>
 
  
  **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
@@ -195,7 +194,7 @@ required by audit   <br>
  getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
  server(s).<br>
  
-**References** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
+**References** - <br>
 
  
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
@@ -208,7 +207,7 @@ for a single record<br>
  - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
   as our the existing zones contained errors.<br>
   
-**References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>
+**References** - <br>
 
  
  
@@ -221,7 +220,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 **Challenges Experienced** 
  - The initial setup lacked redundancy both from a compute and storage perspective <br>
  
-**References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>  <br>
+**References** - <br>
 
  
 ## 📌 On The Side
@@ -235,16 +234,15 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
   
 
 
-## 🎤 Most Difficult customers (my testimonies)
-🐻 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
-🐻 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
-🐻 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
-🐻 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
-🐻 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
-🐻 Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
-🐻 Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
-🐻 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
-
+## 🎤 Most Difficult customers (testimonies)
+💖 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
+💖 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
+💖 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
+💖 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
+💖 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
+💖 Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
+💖 Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
+💖 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
 
 🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
   
