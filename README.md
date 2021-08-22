@@ -33,8 +33,8 @@ Hired to work with Java and C# developers to develop and support health manageme
  <br>
     
 ## 🏆 Projects | Accomplishments
-_This section accounts for some of my high value projects where i made an impact ._
-<br><br>
+_This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
+<br>
 <hr style="border:1px solid gray"> </hr>
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
@@ -227,9 +227,12 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 ## 📌 On The Side
 
-**SentScore** _(Jan 2021 - Present)_<br>
-🏳️‍🌈 A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB.
-  <br><br>
+**SentScore** [https://github.com/chamambom/SentScore] 🏳️‍🌈 A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. _(Jan 2021 - Present)_<br>
+🏳️‍🌈 Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
+🏳️‍🌈 Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
+🏳️‍🌈 Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
+🏳️‍🌈 Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
+<br>
   
 <hr style="border:1px solid gray"> </hr>
 
