@@ -238,12 +238,16 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 
 ## 🎤 Most Difficult customers (my testimonies)
 🐻 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
-🐻 Customers with an I.T department reporting to the finance department ? where justification is required from the vendor on why we must do the project? <br>
+🐻 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
 🐻 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
 🐻 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
 🐻 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
+🐻 Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
+🐻 Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
+🐻 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
 
-🏳️‍🌈 **Well you are out of luck -  customer is king** 
+
+🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
 
 
 
