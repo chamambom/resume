@@ -8,7 +8,6 @@ _Cloud Operations Engineer (often wear my data analyst hat) based in Harare, Zim
 
 
 **Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
-Provides Network, Cloud and Cyber Security offerings through strategic partnerships with leading global players to the African continent.
 
 Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
 journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
@@ -18,7 +17,6 @@ systems engineer in the resident country on the day-to-day support of business a
 - - -
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
-Telecommunications service provider that provides converged communication and hosting solutions.
 
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
@@ -26,7 +24,6 @@ through automated monitoring systems & ITIL compliant service delivery processes
 - - -
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
-Humanitarian project operating within the boundaries of the department of the community medicine.
 
 Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
@@ -261,7 +258,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 - - -
 **BSc Honors In Computer Science** [University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
 - - -
-**Redhat Certified Systems Enginer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
+**Redhat Certified Systems Engineer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
 - - -
 **Redhat Certified Systems Administrator** | 140-045-378 |  _(Feb 2014 - Feb 2017)_ <br>
 - - -
