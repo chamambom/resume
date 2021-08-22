@@ -1,6 +1,6 @@
 # Martin Chamambo
 
-_Cloud Operations Engineer (often wear my data analyst hat) based in Harare, Zimbabwe_ <br>
+_Cloud Operations Engineer (Sometimes wear my data analyst hat) based in Harare, Zimbabwe_ <br>
 
 [Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/)
 
@@ -232,7 +232,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
   
 
 
-## 🎤 Most Difficult customers (testimonies)
+## 🎤 Most Difficult customers (According to me)
 💖 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
 💖 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
 💖 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
