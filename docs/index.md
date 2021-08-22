@@ -15,7 +15,7 @@ journeys by developing end to end cloud migration roadmaps from planning ,implem
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br>
 
-"---"
+- - -
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Telecommunications service provider that provides converged communication and hosting solutions.
@@ -23,7 +23,7 @@ Telecommunications service provider that provides converged communication and ho
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br>
-
+- - -
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
 Humanitarian project operating within the boundaries of the department of the community medicine.
@@ -31,11 +31,10 @@ Humanitarian project operating within the boundaries of the department of the co
 Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
   the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
-    
+ - - -   
 ## 🏆 Projects | Accomplishments
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
 <br>
-
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
@@ -53,7 +52,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  
  **References** - <br>
  
-
+- - -
  
 **Organisation** - [Liquid Intelligent Technologies | Zimbabwe](https://www.liquid.tech.co.zw/)<br>
 **Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
@@ -66,7 +65,7 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
  
 **References** - <br>
 
-
+- - -
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
@@ -79,7 +78,7 @@ tform using on-premises servers and 3rd party software. <br>
  
 **References** - <br>
 
-
+- - -
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
@@ -94,7 +93,7 @@ tform using on-premises servers and 3rd party software. <br>
   
 **References** - <br>
 
- 
+ - - -
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
  of 2385 mailboxes utilising a total of 10TB.  <br>
@@ -109,7 +108,7 @@ tform using on-premises servers and 3rd party software. <br>
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  
  **References** - <br>
-
+- - -
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
@@ -122,7 +121,7 @@ tform using on-premises servers and 3rd party software. <br>
  still pointing to their on-premise servers)<br>
  
 **References** - <br>
-
+- - -
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
@@ -134,7 +133,7 @@ tform using on-premises servers and 3rd party software. <br>
   originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
   
 **References** - <br>
-
+- - -
  
  **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
@@ -146,7 +145,7 @@ every other mailbox on-premise<br>
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
  
 **References** -  <br>
-
+- - -
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
@@ -159,8 +158,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  
 **References** - <br>
-
- 
+- - - 
  **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
 **Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for "whitelisting traffic" purposes.<br>
@@ -172,6 +170,7 @@ Sophos firewall for terminating Azure VPNs <br>
   
 **References** -<br>
 
+- - -
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -184,6 +183,7 @@ required by audit   <br>
  
 **References** -  <br>
 
+- - -
  
  **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
@@ -196,7 +196,7 @@ required by audit   <br>
  
 **References** - <br>
 
- 
+- - - 
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
 for a single record<br>
@@ -209,7 +209,7 @@ for a single record<br>
   
 **References** - <br>
 
- 
+- - - 
  
 **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Environment comprised operational and business support systems running on old commodity hardware (tower and rack servers). 
@@ -222,6 +222,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 **References** - <br>
 
+- - -
  
 ## 📌 On The Side
 
@@ -245,39 +246,40 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 💖 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
 
 🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
-  
+
+- - -
 ## 💬 Languages
 
 **English**: Proficient <br>
 **Shona**: Native <br>
 **Ndebele**: Native
 <br><br>
-
+- - -
 ## 👩🏼‍🎓 Education
 
 **MSc In Data Analytics**  [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_ <br>
-
+- - -
 **BSc Honors In Computer Science** [University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
-
+- - -
 **Redhat Certified Systems Enginer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
-
+- - -
 **Redhat Certified Systems Administrator** | 140-045-378 |  _(Feb 2014 - Feb 2017)_ <br>
-
+- - -
 **Microsoft certified Azure Administrator** |MCID: 16595099 |  _(Nov 2020 - Nov 2022)_ <br>
-
+- - -
 **Microsoft certified Data Engineer**  | MCID: 16595099 | _(Sept 2020 - Sept 2022)_ <br>
-
+- - -
 **Microsoft certified Azure Security Engineer** | MCID: 16595099 | _(Jul 2021 - Jul 2023)_ <br>
-
+- - -
 **Microsoft certified Data Analyst** | MCID: 16595099 | _(Dec 2020 - Dec 2022)_ <br> 
-
+- - -
 **Microsoft certified Solutions Associate : O365**  | MCID: 16595099 | _(Dec 2018 - Present)_ <br>
-
+- - -
 **Cisco Certified Network Associate - CCNA**| CSCO12129589 | _(Mar 2012 - Mar 2015)_ <br>
-
+- - -
 **I.T.I.L Foundation certificate in IT Service management** | 4813045.1240312  | _(Aug 2013 - Present)_ <br>
-
+- - -
 **VMware Certified Associate Cloud** | VMW-01279212C-00417295 | _(Dec 2013 - Present)_ <br>
-
+- - -
 **VMware Certified Associate (Datacentre Virtualisation)** | VMW-01279212C-00417295| _(Nov 2013 - Present)_ <br> 
-
+- - -
