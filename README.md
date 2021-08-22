@@ -163,7 +163,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **References** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
 <hr style="border:1px solid gray"> </hr>
  
- **Organisation** - [Rainbow Tourism Group (RGT)](https://www.rtg.co.zw/)<br>
+ **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
 **Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for "whitelisting traffic" purposes.<br>
 **Period** - Mar - Jul 2020 <br>
@@ -175,7 +175,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **References** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
 <hr style="border:1px solid gray"> </hr>
  
- **Organisation** - [Civil Aviation Authority Of Bostwana | BOSTWANA](https://www.caab.co.bw/)<br>
+ **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
 **Requirements. Planned Changes** - Configured a disaster recovery (Azure Site Recovery (ASR)) and Azure Backup (MABS) setup to provide a remote BCDR plan as 
 required by audit   <br>
@@ -187,7 +187,7 @@ required by audit   <br>
 **References** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
 <hr style="border:1px solid gray"> </hr>
  
- **Organisation** - [Morupule Coal Mine (MCM) | BOTSWANA](https://www.mcm.co.bw/)<br>
+ **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
 **Requirements. Planned Changes** - Backup all servers to Azure<br>
 **Period** - Mar - Jul 2020 <br>
@@ -227,7 +227,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 ## 📌 On The Side
 
-**SentScore** [https://github.com/chamambom/SentScore] 🏳️‍🌈 A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. _(Jan 2021 - Present)_<br>
+🏳️‍🌈 **SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
 🏳️‍🌈 Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
 🏳️‍🌈 Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
 🏳️‍🌈 Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
@@ -236,10 +236,16 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
   
 <hr style="border:1px solid gray"> </hr>
 
-## 🎤 Most Difficult customers 
-🐻 Customers who dont understand their own application , network and server configurations and the contribution to the complexity of the project especially in 
-hybrid deployment scenarios <br>
-🐻 customers with an I.T department reporting to the finance department - Most of the time , the I.T team is not technical <br>
+## 🎤 Most Difficult customers (my testimonies)
+🐻 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
+🐻 Customers with an I.T department reporting to the finance department ? where justification is required from the vendor on why we must do the project? <br>
+🐻 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
+🐻 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
+🐻 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
+
+🏳️‍🌈 **Well you are out of luck -  customer is king** 
+
+
 
 <hr style="border:1px solid gray"> </hr>
   
