@@ -1,6 +1,6 @@
 # Martin Chamambo
 
-_Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harare, Zimbabwe_ <br>
+_Cloud Operations Engineer (often wear my data analyst hat) based in Harare, Zimbabwe_ <br>
 
 [Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/)
 
@@ -15,7 +15,7 @@ journeys by developing end to end cloud migration roadmaps from planning ,implem
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br>
 
-
+"---"
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Telecommunications service provider that provides converged communication and hosting solutions.
