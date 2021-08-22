@@ -109,7 +109,7 @@ tform using on-premises servers and 3rd party software. <br>
  standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also cater to. We ended up proposing doing a clean migration after 
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  
-**References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw ), Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
+ **References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw )|  Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
 
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
