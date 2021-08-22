@@ -15,7 +15,7 @@ journeys by developing end to end cloud migration roadmaps from planning ,implem
 systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
 <br>
 
-<hr style="border:1px solid gray"> </hr>
+
 
 **Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
 Telecommunications service provider that provides converged communication and hosting solutions.
@@ -23,7 +23,7 @@ Telecommunications service provider that provides converged communication and ho
 Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
 through automated monitoring systems & ITIL compliant service delivery processes.
 <br>
-<hr style="border:1px solid gray"> </hr>
+
 
 **Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
 Humanitarian project operating within the boundaries of the department of the community medicine.
@@ -35,7 +35,7 @@ Hired to work with Java and C# developers to develop and support health manageme
 ## 🏆 Projects | Accomplishments
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
 <br>
-<hr style="border:1px solid gray"> </hr>
+
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
@@ -53,7 +53,7 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  
  **References** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
  
- <hr style="border:1px solid gray"> </hr>
+
  
 **Organisation** - [Liquid Intelligent Technologies | Zimbabwe](https://www.liquid.tech.co.zw/)<br>
 **Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
@@ -66,7 +66,7 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
  
 **References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
 
-<hr style="border:1px solid gray"> </hr>
+
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
@@ -79,7 +79,7 @@ tform using on-premises servers and 3rd party software. <br>
  
 **References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
 
-<hr style="border:1px solid gray"> </hr>
+
 
 **Organisation** - [Zimbabwe Electricity Industry Pension Fund | Zimbabwe](https://www.zeipf.co.zw//)<br>
 **Existing Environment** - Running business applications (SAP , Payroll app and Pension management software) on physical servers <br>
@@ -94,7 +94,7 @@ tform using on-premises servers and 3rd party software. <br>
   
 **References** - Simba Chavunduka [Email](mailto:simba@zesapf.co.zw ) <br>
  
- <hr style="border:1px solid gray"> </hr>
+
  
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
 **Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
@@ -111,7 +111,6 @@ tform using on-premises servers and 3rd party software. <br>
  
 **References** - Adrin Muchatibaya | [Email](mailto:Adrin.Muchatibaya@econet.co.zw ), Tafadzwa Dzapasi [Email](mailto:tafadzwa.dzapasi@econet.co.zw )   <br>
 
- <hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
@@ -124,7 +123,7 @@ tform using on-premises servers and 3rd party software. <br>
  still pointing to their on-premise servers)<br>
  
 **References** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
- <hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
@@ -136,7 +135,7 @@ tform using on-premises servers and 3rd party software. <br>
   originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
   
 **References** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
 **Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
@@ -148,7 +147,7 @@ every other mailbox on-premise<br>
  goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
  
 **References** -  <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
@@ -161,7 +160,7 @@ Sophos firewall for terminating Azure VPNs <br>
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  
 **References** - Fadzanai E Mupandenyama [Email](mailto:FadzanaiMu@zimre.co.zw) <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
@@ -173,7 +172,7 @@ Sophos firewall for terminating Azure VPNs <br>
  a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
   
 **References** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -185,7 +184,7 @@ required by audit   <br>
  required someone with azure expertise. Client kept pushing requests to the vendor.<br>
  
 **References** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
@@ -197,7 +196,7 @@ required by audit   <br>
  server(s).<br>
  
 **References** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
@@ -210,7 +209,7 @@ for a single record<br>
   as our the existing zones contained errors.<br>
   
 **References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  
 **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
@@ -223,7 +222,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  - The initial setup lacked redundancy both from a compute and storage perspective <br>
  
 **References** - Abisai Matangira | [Email](mailto:matangiraa@afri-com.net)  | +263 8644004138 <br>  <br>
-<hr style="border:1px solid gray"> </hr>
+
  
 ## 📌 On The Side
 
@@ -234,7 +233,7 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 🏳️‍🌈 Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
 <br>
   
-<hr style="border:1px solid gray"> </hr>
+
 
 ## 🎤 Most Difficult customers (my testimonies)
 🐻 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
@@ -248,10 +247,6 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 
 
 🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
-
-
-
-<hr style="border:1px solid gray"> </hr>
   
 ## 💬 Languages
 
