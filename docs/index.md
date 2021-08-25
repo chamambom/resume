@@ -35,9 +35,9 @@ _This section accounts for some of my high value (reducing cost and operational 
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. They have various business applications 
-(HR management software ,ERP automatica , Inventory management software etc) supporting the business .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. <br>
-**Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment 
-using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure. <br>
+(HR management software ,ERP automatica , Inventory management software etc) supporting the business .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. With most of their employees working remotely , irvines decided to centralise their operations by utilising Azure<br>
+**Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment using IPSec VPNs to facilitate a gradual migration to Azure. For user access , existing remote SSL vpns terminating on the sophos and mikrotiks were extended/routed to azure via the IPSec VPNs.  
+<br>
 **Duration** - 6 months <br>
 **Challenges Experienced** 
  - We initially scoped the applications to be hosted on Azure SQL but we were faced with compatibility issues due to legacy code and 
