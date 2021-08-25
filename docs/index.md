@@ -10,8 +10,8 @@ _Cloud Operations Engineer (Sometimes wear my data analyst hat) based in Harare,
 **Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
 
 Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
-journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
-systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
+journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as a 
+systems engineer for Zimbabwe resident country) on the day-to-day support of business and operational support systems (BSS & OSS) running on-premise.
 <br>
 
 - - -
@@ -34,8 +34,8 @@ _This section accounts for some of my high value (reducing cost and operational 
 <br>
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
-**Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe running various business applications 
-(HR management software ,ERP automatica running on either HyperV or Physical servers. Various sites are running either a Sophos or a Mikrotik firewall). <br>
+**Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. They have various business applications 
+(HR management software ,ERP automatica , Inventory management software etc) supporting the business .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. <br>
 **Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment 
 using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure. <br>
 **Duration** - 6 months <br>
@@ -193,7 +193,6 @@ required by audit   <br>
  server(s).<br>
  
 **References** - <br>
-
 - - - 
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
