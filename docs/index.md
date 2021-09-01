@@ -9,17 +9,19 @@ _Cloud Operations Engineer (Sometimes wear my data analyst hat) based in Harare,
 
 **Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
 
-Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
-journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as a 
-systems engineer for Zimbabwe resident country) on the day-to-day support of business and operational support systems (BSS & OSS) running on-premise.
+Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as a systems engineer in Zimbabwe (resident country) on the day-to-day support of business and operational support systems (BSS & OSS) running on-premise.
 <br>
 
 - - -
 
-**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
+**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Jul 2013 - Jul 2015)_ <br>
 
-Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
-through automated monitoring systems & ITIL compliant service delivery processes.
+Hired as part of a 10 member “24x7 on-call rotation team” to enhance service delivery using ITIL best practices by proactively monitoring and improving the reliability of network services and infrastructure.
+<br>
+- - -
+**Network Operations Engineer** @ [Dandemutande Pvt Ltd](https://www.dandemutande.co.zw/) _(Jul 2012 - Jun 2013)_ <br>
+Hired as part of a 5 member “24x7 on-call rotation team” to support onsite engineers , monitor and configure network services for customers. 
+
 <br>
 - - -
 
@@ -35,7 +37,7 @@ _This section accounts for some of my high value (reducing cost and operational 
 
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
 **Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. They have various business applications 
-(HR management software ,ERP automatica , Inventory management software etc) supporting the business .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. With most of their employees working remotely , irvines decided to centralise their operations by utilising Azure<br>
+(HR management software ,ERP automatica , Inventory management software etc) that utilise SQL express .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. With most of their employees working remotely , irvines decided to centralise their operations by utilising Azure<br>
 **Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment using IPSec VPNs to facilitate a gradual migration to Azure. For user access , existing remote SSL vpns terminating on the sophos and mikrotiks were extended/routed to azure via the IPSec VPNs.  
 <br>
 **Duration** - 6 months <br>
@@ -70,7 +72,7 @@ tform using on-premises servers and 3rd party software. <br>
 **Requirements. Planned Changes** To develop and implement a data strategy pipeline and provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
 **Duration** -2 months <br>
 **Challenges Experienced** 
- - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints keep going down. Resolved to implement a 
+ - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints kept going down. Resolved to implement a 
  data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
  
 **References** - <br>
@@ -232,15 +234,15 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
   
 
 
-## 🎤 Most Difficult customers (According to me)
-- Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
-- Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
-- Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
+## 🎤 Types of difficult customer
+- A customer who has an I.T department which which isnt familiar with how their applications ,network and servers are configured ? <br>
+- Customers with an I.T department reporting to the finance department ? everything is about cost ? <br>
+- Customers with that I.T Guy who will change configurations during project execution and when it stops working deny that he ever touched anything ? <br>
 - Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
 - Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
 - Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
 - Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
-- Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
+- Customers with a bureaucratic system where departments are so isolated - you have to initiate communications to each department to get anything done ? <br>
 
 💖 **Well you are out of luck -  customer always wins - deal with it** 
 
