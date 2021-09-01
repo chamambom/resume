@@ -21,14 +21,12 @@ Hired as part of a 10 member “24x7 on-call rotation team” to enhance service
 - - -
 **Network Operations Engineer** @ [Dandemutande Pvt Ltd](https://www.dandemutande.co.zw/) _(Jul 2012 - Jun 2013)_ <br>
 Hired as part of a 5 member “24x7 on-call rotation team” to support onsite engineers , monitor and configure network services for customers. 
-
 <br>
 - - -
 
 **Systems Administrator** @ [University Of Zimbabwe - Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961/) _(Apr 2009 - Feb 2012)_ <br>
 
-Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
-  the Ministry of Health and Child Care (MoHCC) with support from various donors.
+Hired to work with Java and C# developers to support health management information systems for humanitarian programmes carried out under the Ministry of Health and Child Care (MoHCC) with support from various donors.
  <br>
  - - -   
 ## 🏆 Projects | Accomplishments
