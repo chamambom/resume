@@ -84,9 +84,12 @@ tform using on-premises servers and 3rd party software. <br>
 **Requirements. Planned Changes** To develop and implement strategies for data ingestion and intergration of existing ETL pipelines with azure based services - Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
 **Duration** -2 months <br>
 **Challenges Experienced** 
- - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Azure data factory was too expensive we ended up replacing it with SQL cron jobs. 
- Some of the datasource endpoints kept going down. Resolved to implement a data strategy that included SLA agreements and robust endpoint monitoring to establish boundaries of accountability.<br>
- **References** - <br>
+ - Resources on azure had to connect to data sources located on-premise through IPSec VPNs. 
+   - Azure data factory was too expensive so we ended up replacing it with cron jobs since 90% of the data was structured. 
+   - Some of the data source endpoints kept going down. 
+ - Resolved to implement a data strategy that included SLA agreements and robust endpoint monitoring to establish boundaries of accountability.<br>
+ 
+**References** - <br>
 
 - - -
 
@@ -221,6 +224,20 @@ for a single record<br>
 <br>
 **Requirements. Planned Changes** - To consolidate applications and servers. Designed and implemented a 2 node KVM cluster on 2 Sun blades X6270/chassis 6000 
 each with teamed interfaces connecting to 30 TBs of storage (managed by openfiler) made from commodity hardware<br>
+**Duration** - 2 month <br>
+**Challenges Experienced** 
+ - The initial setup lacked redundancy both from a compute and storage perspective so we made use of a robust backup strategy
+ - There was no firewall protecting the VMs , all rules were managed directly on the server. 
+<br>
+ 
+**References** - <br>
+
+- - -
+
+**Organisation** - [Dandemutande | Zimbabwe](https://www.dandemutande.co.bw/)<br>
+**Existing On-premise Environment** - Established Internet services (ISP) seeking engineers to man their newly established NOC. 
+<br>
+**Requirements. Planned Changes** - To implement monitoring systems , Improve processes , Service provisioning steps <br>
 **Duration** - 2 month <br>
 **Challenges Experienced** 
  - The initial setup lacked redundancy both from a compute and storage perspective so we made use of a robust backup strategy
