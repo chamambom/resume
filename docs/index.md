@@ -33,31 +33,45 @@ Hired to work with Java and C# developers to support health management informati
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
 <br>
 
+ **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
+**Existing Environment** - https://gatewaystream.com/ hosted on AWS configured to use cloudflare for traffic routing<br>
+**Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for GDPR and "whitelisting traffic" purposes.<br>
+**Duration** - 1 month <br>
+**Challenges Experienced** 
+ - The environment (Azure Stack ) the app was migrated to did not have a resource that can support regional layer 7 loadbalancing capabilities (SSL offloading , Path redirection).
+ We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. 
+ - **Update** - after looking at azure front door , we realised it was able to support traffic routing to endpoints configured outside azure. We re-architected the solution
+ to incorporate azure front door. 
+  <br>
+  
+**References** -<br>
+
+- - -
 **Organisation** - [Irvines Group | Sourthen Africa  ](https://www.irvinesafrica.com/)<br>
-**Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. They have various business applications 
-(HR management software ,ERP automatica , Inventory management software etc) that utilise SQL express .. some running on HyperV ,VMware and some on Physical servers. The various sites are running either a Sophos or a Mikrotik firewall for connectivity. With most of their employees working remotely , irvines decided to centralise their operations by utilising Azure<br>
-**Requirements. Planned Changes** - Develop a cloud adoption framework and migration roadmap. Consolidate (using azure migrate) existing applications while maintaining a hybrid environment using IPSec VPNs to facilitate a gradual migration to Azure. For user access , existing remote SSL vpns terminating on the sophos and mikrotiks were extended/routed to azure via the IPSec VPNs.  
+**Existing Environment** - Irvines Group has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. Their business applications 
+(HR management software ,ERP automatica , Inventory management software etc) where decentralised around their regional sites running on-premise.SQL express was the main database backend. The underlying virtual infrastructurea was a mix of HyperV ,VMware and some physical servers here and there. Connectivity wise, all 5 sites either had a Sophos or a Mikrotik firewall that had Site to Site VPNs for office to office access and SSL VPNs for their employees while working from home. To streamline their servers and with most of their employees working remotely , irvines decided to centralise their operations by migrating to Azure<br>
+**Requirements. Planned Changes** - Develop a cloud migration roadmap. Use the cloud rationalization framework to consolidate and migrate existing servers and applications while maintaining a hybrid environment using IPSec VPNs to facilitate a gradual migration to Azure. For user access , existing remote SSL vpns terminating on the sophos and mikrotiks were extended/routed to azure via the IPSec VPNs.  
 <br>
 **Duration** - 6 months <br>
 **Challenges Experienced** 
- - We initially scoped the applications to be hosted on Azure SQL but we were faced with compatibility issues due to legacy code and 
- we settled for Azure SQL managed instance and SQL server (on a VM) which caters for an on-prem lift and shift.
+ - We initially scoped the applications to be hosted on Azure SQL but most applications werent compatible when we ran azure migate due to legacy code and 
+ we settled for Azure SQL managed instance and SQL server express (on a VM).
  - Hybrid connectivity between Azure and irvines offices (with a mix of Mikrotiks and Sophos firewalls) - had overlapping subnets which needed to be changed. Additionally 
  because of teleworking , Irvines already had remote SSL VPNs configured for their users to connect to on-premise applications.Instead of configuring native azure P2S tunnels
   we extended traffic originating from the remote SSL vpn subnet into azure to reduce networking complexity .
- - Access requirements required that we centralise some applications didnt support AD authentication. <br>
+ - Identity access requirements required that we centralise application access. Some applications didnt support AD authentication until they were upgraded.<br>
  
  **References** - <br>
  
 - - -
  
 **Organisation** - [Liquid Intelligent Technologies | Zimbabwe](https://www.liquid.tech.co.zw/)<br>
-**Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
-**Requirements. Planned Changes** To upgrade the VMware ESxi cluster by adding 10 more Dell M630 Blades/M1000e 
-chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell Power Connect M6348 storage switches and 5x Dell PS 6610 EqualLogic arrays<br>
+**Existing Environment** - 2 VMware Esxi nodes configured independently of each other using direct attached storage designed for managed hosted services <br>
+**Requirements. Planned Changes** To upgrade the VMware ESxi environment and convert the existing nodes into a cluster by adding 10 more Dell M630 Blades/M1000e 
+chassis , a 1000 terabytes ISCSI SAN running 3x Dell Power Connect M6348 storage switches and 5x Dell PS 6610 EqualLogic arrays<br>
 **Duration** - 4 months <br>
 **Challenges Experienced** 
- - Maintenance and monitoring of storage and compute required dedicated resources. Most of the time active/standby controllers would fail affecting all VMs that have 
+ - Maintenance and monitoring of storage and compute required dedicated resources. Most of the time active/standby storage controllers would fail affecting all VMs that have 
   their vmdks stored on that array. A power cycle of the VMs would be required as vms went into invalid or inconsistent states<br>
  
 **References** - <br>
@@ -65,15 +79,14 @@ chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell P
 - - -
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
-**Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
+**Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science team was formed to establish a unified analytics pla
 tform using on-premises servers and 3rd party software. <br>
-**Requirements. Planned Changes** To develop and implement a data strategy pipeline and provision a cloud based data analytic platform based on Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
+**Requirements. Planned Changes** To develop and implement strategies for data ingestion and intergration of existing ETL pipelines with azure based services - Azure databricks , Qliksense , Azure Data factory and Azure synapse<br>
 **Duration** -2 months <br>
 **Challenges Experienced** 
- - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Some of the datasource endpoints kept going down. Resolved to implement a 
- data strategy where there are SLA agreements and boundaries of accountability for monitoring purposes.<br>
- 
-**References** - <br>
+ - Resources on azure had to connect to datasources located on-premise through IPSec VPNs. Azure data factory was too expensive we ended up replacing it with SQL cron jobs. 
+ Some of the datasource endpoints kept going down. Resolved to implement a data strategy that included SLA agreements and robust endpoint monitoring to establish boundaries of accountability.<br>
+ **References** - <br>
 
 - - -
 
@@ -92,16 +105,14 @@ tform using on-premises servers and 3rd party software. <br>
 
  - - -
 **Organisation** - [Econet Wireless |  Zimbabwe](https://www.econet.co.zw/)<br>
-**Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised
- of 2385 mailboxes utilising a total of 10TB.  <br>
-**Requirements. Planned Changes** - Migrate all mailboxes to O365 gradually using the hybrid move <br>
+**Existing Environment** - Comprised of an environment running A cisco ASA at the edge , Intrusion Detection System, TMG , a proxy server, Ironport, Active Directory servers (4) and exchange 2013 servers (2 CAS and 6 Mailbox ) .The highly available setup comprised of 2385 mailboxes with a total of 10TB.  <br>
+**Requirements. Planned Changes** - Migrate all mailboxes to O365 gradually using the hybrid method <br>
 **Duration** - 8 months  <br>
 **Challenges Experienced** 
  - The datacenter network protecting the mail and AD servers was so complex , the existing team (which wasnt available when it was setup) , did not understand 
- all the network components involved. The network setup prevented the hybrid wizard to complete successfully. Microsoft documentation assumes that there are no 3rd party 
- components such as cisco spam filter in a successful hybrid scenario with exchange online - for email routing reasons.
+ all the network components involved. The network setup prevented the hybrid wizard to complete successfully. For a susccessful hybrid migration , Microsoft documentation states that no 3rd party components such as cisco spam filter should exist between exchange online and exchange on-premise - for email routing reasons.
  - Changes to the components of the network - allow exchange to communicate directly with exchange online required security experts (which we did not have) and a series of long 
- standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also cater to. We ended up proposing doing a clean migration after 
+ standing change requests. Tried to add O365 URLs and IPs on the firewall but there was a proxy and an IDS to also consider. In the end ,we did a clean migration after 
  being advised by microsoft that the data was too much and would require breaking it down into chunks to move it.<br>
  
  **References** - <br>
@@ -110,7 +121,7 @@ tform using on-premises servers and 3rd party software. <br>
  **Organisation** - [Steward Bank |  Zimbabwe](https://www.stewardbank.co.zw/)<br>
 **Existing Environment** On-premise environment comprised of 2 AD servers , 2 clustered 2016 exchange servers running all roles (CAS and Mailbox) ,Cisco iron port for 
  spam filtering<br>
-**Requirements. Planned Changes** Migrate some users to exchange online and leave some users on-premise <br>
+**Requirements. Planned Changes** Implement a hybrid identity and email - Migrate some users to exchange online and leave some users on-premise <br>
 **Duration** - 2 months <br>
 **Challenges Experienced** 
  - The exchange on-premise environment was unstable and kept corrupting the mailbox databases which affected the migration significantly.
@@ -122,12 +133,16 @@ tform using on-premises servers and 3rd party software. <br>
  
  **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
 **Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
-**Requirements. Planned Changes** - Migrate all mailboxes to the cloud and still utilise mimecast for spam filtering. <br>
+**Requirements. Planned Changes** - Implement hybrid identity and migrate all mailboxes to the cloud and still utilise mimecast for spam filtering. <br>
 **Duration** - 1 month<br>
 **Challenges Experienced** 
- - My first hybrid setup , i never anticipated that having mimecast routing the emails (3rd party software) which is outside the perimeter network was going to complicate 
-  my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
-  originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
+ - This was the first hybrid project that i executed.I failed to anticipate the following 
+   - Mimecast for spam filtering and routing of emails - was outside the perimeter network
+   - 3rd party software for spam filtering and routing of emails   
+   
+ - Because of the complicated email routing rules that were required,  i made sure i tested all email routing scenarios by migrating test accounts only to 
+   satisfy all email routing scenarios before doing the final migration. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)  originating outside the 
+   trusted IP block. We ended up configuring custom rules for different mail routing scenarios.<br>
   
 **References** - <br>
 - - -
@@ -138,36 +153,29 @@ tform using on-premises servers and 3rd party software. <br>
 every other mailbox on-premise<br>
 **Duration** - 1 month <br>
 **Challenges Experienced** 
- - After we were done testing all the email routing scenarios and moved a couple of test mailboxes  , the client had been sold a dummy. Account manager had told the client that even if the on-premise server
- goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
+ - After we had tested all email routing scenarios and moved a couple of test mailboxes  , all this time the client believed that hybrid email and identity
+ will work even if one end is down. MX records were still pointing to exchange on-premise ,a decision we made based on the number of users left on-premise.
+ - We tried to explain to the client why it wasnt possible , but we lost the client eventually.
+ <br>
  
 **References** -  <br>
 - - -
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
-**Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
-Sophos firewall for terminating Azure VPNs <br>
-**Requirements. Planned Changes** -  Migrate all servers to the cloud and configure hybrid connnectivity using azure S2S and P2S <br>
+**Existing Environment** - Has operations in SouthAfrica , Botswana ,Zambia ,Mozambique and Zimbabwe. All core applications 
+where centralised in their Zimbabwe HQ. Zimbabwe On-premise environment comprised of VMware servers running these business applications. Some of the applications were intergrated 
+to the on-premise AD. All their 5 sites were using Sophos firewall at the edge<br>
+**Requirements. Planned Changes** -  Migrate all core applications to the cloud and configure hybrid connectivity using azure S2S and P2S <br>
 **Duration** - 2 months  <br>
 **Challenges Experienced** 
- - The scoping did not cater for a robust identity solution , which forced us to migrate the AD to the cloud and keep seperate AD servers (On-premise and Clodu).Still feel
- like we could have done a better job.
+ - The scoping done by the solution architect did not cater for a robust identity solution , which forced us to migrate the AD to the cloud and keep separate 
+ AD servers (On-premise and Cloud). Upon project completion client was happy with the setup but still felt like we could have done a better job around centralising 
+ their identity.
  - Client had a lean team of I.T support personnel , which meant any changes required on the environment were sent to the service provider.<br>
  
 **References** - <br>
 - - - 
- **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
-**Existing Environment** - https://gatewaystream.com/ hosted on AWS utilising cloudflare for traffic routing<br>
-**Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for "whitelisting traffic" purposes.<br>
-**Duration** - 1 month <br>
-**Challenges Experienced** 
- - The environment (Azure Stack ) the app was migrated doesnt not have a resource that can support layer 7 loadbalancing capabilities (SSL offloading , Path redirection).
- We had to improvise the setup by terminating the SSL directly on the servers and utilising only a layer 4 loadbalancer. We could have proposed running a VM and running 
- a custom Nginx or HTTP proxy to offload the certificates but did not want to introduce uneccessary complexity into their already complex architecture. <br>
-  
-**References** -<br>
 
-- - -
  
  **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
@@ -184,8 +192,8 @@ required by audit   <br>
 - - -
  
  **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
-**Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
-**Requirements. Planned Changes** - Backup all servers to Azure<br>
+**Existing On-premise Environment** - Environment comprised of business applications running on VMware <br>
+**Requirements. Planned Changes** - Backup all 24 servers to Azure<br>
 **Duration** - 3 months <br>
 **Challenges Experienced** 
  - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Backups 
@@ -195,27 +203,29 @@ required by audit   <br>
 **References** - <br>
 - - - 
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
-**Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
+**Existing On-premise Environment** - Environment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
 for a single record<br>
 **Requirements. Planned Changes** - Integrated 4 decentralised Bind DNS servers with facilemanager [http://www.facilemanager.com/]
  providing a single management interface for creating customer DNS records<br>
 **Duration** - 1 month <br>
 **Challenges Experienced** 
  - We were running 4 bind servers and introducing facilemanager meant i had to recompile the bind servers replicating the same configuration. The process was too manual
-  as our the existing zones contained errors.<br>
+  as most of our existing zones contained errors.<br>
   
 **References** - <br>
 
 - - - 
  
 **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
-**Existing On-premise Environment** - Environment comprised operational and business support systems running on old commodity hardware (tower and rack servers). 
-for a single record<br>
+**Existing On-premise Environment** - Environment was comprised of operational and business support systems running on old commodity hardware (tower and rack servers). 
+<br>
 **Requirements. Planned Changes** - To consolidate applications and servers. Designed and implemented a 2 node KVM cluster on 2 Sun blades X6270/chassis 6000 
-each with teamed interfaces connecting to 30 TBs of storage made from commodity hardware<br>
+each with teamed interfaces connecting to 30 TBs of storage (managed by openfiler) made from commodity hardware<br>
 **Duration** - 2 month <br>
 **Challenges Experienced** 
- - The initial setup lacked redundancy both from a compute and storage perspective <br>
+ - The initial setup lacked redundancy both from a compute and storage perspective so we made use of a robust backup strategy
+ - There was no firewall protecting the VMs , all rules were managed directly on the server. 
+<br>
  
 **References** - <br>
 
@@ -223,16 +233,16 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 ## 📌 On The Side
 
-🏳️**SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
-🏳️Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
-🏳️Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
-🏳️‍Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
-🏳️Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
+- **SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
+- Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
+- Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
+- ‍Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
+- Standardised O365 and cloud services troubleshooting and deployment using ARM templates, PowerShell, GIT & terraform [https://github.com/chamambom/azure-terraform] 
 <br>
   
 
 
-## 🎤 Types of difficult customer
+## 🎤 Types of difficult customers
 - A customer who has an I.T department which which isnt familiar with how their applications ,network and servers are configured ? <br>
 - Customers with an I.T department reporting to the finance department ? everything is about cost ? <br>
 - Customers with that I.T Guy who will change configurations during project execution and when it stops working deny that he ever touched anything ? <br>
@@ -254,29 +264,31 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
 - - -
 ## 👩🏼‍🎓 Education
 
-**MSc In Data Analytics**  [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_ <br>
+**MSc In Data Analytics**  [Chinhoyi University Of Technology ](https://www.cut.co.zw/) - Chinhoyi, Zimbabwe _(Jan 2018 - Dec 2021)_
 - - -
 **BSc Honors In Computer Science** [University Of University](https://www.uz.ac.zw/) - Harare, Zimbabwe _(Aug 2006 - Jan 2010)_
 - - -
-**Redhat Certified Systems Engineer** | 140-045-378 | _(Feb 2014 - Feb 2017)_ <br>
+**Redhat Certified Systems Engineer** | 140-045-378 | _(Feb 2014 - Feb 2017)_
 - - -
-**Redhat Certified Systems Administrator** | 140-045-378 |  _(Feb 2014 - Feb 2017)_ <br>
+**Redhat Certified Systems Administrator** | 140-045-378 |  _(Feb 2014 - Feb 2017)_
 - - -
-**Microsoft certified Azure Administrator** |MCID: 16595099 |  _(Nov 2020 - Nov 2022)_ <br>
+**Microsoft certified Azure Solutions Expert** |MCID: 16595099 |  _(Sept 2021 - Sept 2022)_
 - - -
-**Microsoft certified Data Engineer**  | MCID: 16595099 | _(Sept 2020 - Sept 2022)_ <br>
+**Microsoft certified Azure Administrator** |MCID: 16595099 |  _(Nov 2020 - Nov 2022)_
 - - -
-**Microsoft certified Azure Security Engineer** | MCID: 16595099 | _(Jul 2021 - Jul 2023)_ <br>
+**Microsoft certified Data Engineer**  | MCID: 16595099 | _(Sept 2020 - Sept 2022)_
 - - -
-**Microsoft certified Data Analyst** | MCID: 16595099 | _(Dec 2020 - Dec 2022)_ <br> 
+**Microsoft certified Azure Security Engineer** | MCID: 16595099 | _(Jul 2021 - Jul 2023)_
 - - -
-**Microsoft certified Solutions Associate : O365**  | MCID: 16595099 | _(Dec 2018 - Present)_ <br>
+**Microsoft certified Data Analyst** | MCID: 16595099 | _(Dec 2020 - Dec 2022)_
 - - -
-**Cisco Certified Network Associate - CCNA**| CSCO12129589 | _(Mar 2012 - Mar 2015)_ <br>
+**Microsoft certified Solutions Associate : O365**  | MCID: 16595099 | _(Dec 2018 - Present)_
 - - -
-**I.T.I.L Foundation certificate in IT Service management** | 4813045.1240312  | _(Aug 2013 - Present)_ <br>
+**Cisco Certified Network Associate - CCNA**| CSCO12129589 | _(Mar 2012 - Mar 2015)_ 
 - - -
-**VMware Certified Associate Cloud** | VMW-01279212C-00417295 | _(Dec 2013 - Present)_ <br>
+**I.T.I.L Foundation certificate in IT Service management** | 4813045.1240312  | _(Aug 2013 - Present)_
 - - -
-**VMware Certified Associate (Datacentre Virtualisation)** | VMW-01279212C-00417295| _(Nov 2013 - Present)_ <br> 
+**VMware Certified Associate Cloud** | VMW-01279212C-00417295 | _(Dec 2013 - Present)_
+- - -
+**VMware Certified Associate (Datacentre Virtualisation)** | VMW-01279212C-00417295| _(Nov 2013 - Present)_
 - - -
