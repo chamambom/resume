@@ -235,13 +235,17 @@ each with teamed interfaces connecting to 30 TBs of storage (managed by openfile
 - - -
 
 **Organisation** - [Dandemutande | Zimbabwe](https://www.dandemutande.co.bw/)<br>
-**Existing On-premise Environment** - Established Internet services (ISP) seeking engineers to man their newly established NOC. 
+**Existing On-premise Environment** - Established Internet services (ISP) which sought operations engineers to man a newly established NOC.<br>
+**Requirements. Planned Changes** 
+- To implement network monitoring systems , document service provisioning steps ,improve NOC processes and network documentation.
+- To adopt the I.T.I.L framework for incident , capacity and problem management.
 <br>
-**Requirements. Planned Changes** - To implement monitoring systems , Improve processes , Service provisioning steps <br>
-**Duration** - 2 month <br>
+
+**Duration** - 1 year <br>
 **Challenges Experienced** 
- - The initial setup lacked redundancy both from a compute and storage perspective so we made use of a robust backup strategy
- - There was no firewall protecting the VMs , all rules were managed directly on the server. 
+ - NOC was central to the- customer services department, Implementation department and engineering departments. Departments were operating in 
+ silos ,there was no handshake between them which affected end to end service delivery.
+ - Notification "sprawl" - At first , we configured alerts and notifications for every service which affected visibility into the core network elements and visibility.
 <br>
  
 **References** - <br>
