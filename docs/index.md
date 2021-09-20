@@ -33,6 +33,25 @@ Hired to work with Java and C# developers to support health management informati
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
 <br>
 
+**Organisation** - [Ultramed | Zimbabwe](https://www.rtg.co.zw/)<br>
+**Existing Environment** - A health insurance company looking to modernise their applications and software development pipelines that was easy to adopt for new developers
+.<br>
+**Requirements. Planned Changes** 
+- Migrate on-premise applications to azure adopting a microservice based architecture that utilised load balancers , containers and app services.
+- Develop a CI/CD pipeline using jenkins and azure.
+<br>
+**Duration** - 4 month <br>
+**Challenges Experienced** 
+ - Container implementation on azure is tightly coupled with azure and required the UltraMED team to invest time in learning the platform.Given the team was 
+ mostly made of data scientists , developers and analysts ,handing over the project took a while.
+ - Tested azure ACI , app services on containers and AKS - took a while to decide until we finally went with ACI (tightly coupled with azure and required little 
+ administration) 
+  <br>
+  
+**References** -<br>
+
+- - -
+
  **Organisation** - [Rainbow Tourism Group (RGT) | Zimbabwe](https://www.rtg.co.zw/)<br>
 **Existing Environment** - https://gatewaystream.com/ hosted on AWS configured to use cloudflare for traffic routing<br>
 **Requirements. Planned Changes** - Application was hosted outside the country and was now required to be hosted in country for GDPR and "whitelisting traffic" purposes.<br>
