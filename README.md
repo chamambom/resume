@@ -1,37 +1,9 @@
 # Martin Chamambo
 
-_Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Harare, Zimbabwe_ <br>
+_Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Wellington, New Zealand_ <br>
 
 [Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/)
 
-## 👩🏼‍💻 Technical Experience 
-
-
-**Lead Cloud Operations Engineer - Southern Africa** @ [Liquid Intelligent Technologies](https://liquid.tech) _(Aug 2015 - Present)_ <br>
-Provides Network, Cloud and Cyber Security offerings through strategic partnerships with leading global players to the African continent.
-
-Hired to lead a remote team of 4 cloud engineers operating in Southern Africa (Zambia ,Botswana , Zimbabwe , DRC) to support customers in their cloud adoption 
-journeys by developing end to end cloud migration roadmaps from planning ,implementation and support, doubling as an on-premise 
-systems engineer in the resident country on the day-to-day support of business and operational support systems (BSS & OSS).
-<br>
-
-<hr style="border:1px solid gray"> </hr>
-
-**Service Management Engineer** @ [Africom Pvt Ltd](https://africom.co.zw/) _(Mar 2012 - July 2015)_ <br>
-Telecommunications service provider that provides converged communication and hosting solutions.
-
-Hired as part of a 6 member “24x7 on-call rotation team” within the Network Operations Centre (NOC) to ensure the reliability of network services 
-through automated monitoring systems & ITIL compliant service delivery processes.
-<br>
-<hr style="border:1px solid gray"> </hr>
-
-**Systems Administrator** @ [University Of Zimbabwe | Department of Community Medicine](https://www.uz.ac.zw/index.php?option=com_content&view=article&id=356&Itemid=961) _(Apr 2009 - Feb 2012)_ <br>
-Humanitarian project operating within the boundaries of the department of the community medicine.
-
-Hired to work with Java and C# developers to develop and support health management information systems and mobile data collection tools for humanitarian programmes carried out under 
-  the Ministry of Health and Child Care (MoHCC) with support from various donors.
- <br>
-    
 ## 🏆 Projects | Accomplishments
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
 <br>
