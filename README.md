@@ -2,7 +2,7 @@
 
 _Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Wellington, New Zealand_ <br>
 
-[Email](mailto:chamambom@gmail.com.com) / [Website](https://cubem.co.zw/) / [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/) / [Twitter](https://twitter.com/chamambom/)
+[LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/)
 
 ## 🏆 Projects | Accomplishments
 _This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
@@ -26,19 +26,6 @@ using IPSec VPNs to facilitate a gradual migration using azure migrate to Azure.
  **References** - Dave Michie | [Email](mailto:davem@stratbt.co.za) <br>
  
  <hr style="border:1px solid gray"> </hr>
- 
-**Organisation** - [Liquid Intelligent Technologies | Zimbabwe](https://www.liquid.tech.co.zw/)<br>
-**Existing Environment** - 2node VMware ESxi cluster designed for managed hosted services <br>
-**Requirements. Planned Changes** To upgrade the VMware ESxi cluster by adding 10 more Dell M630 Blades/M1000e 
-chassis serving ~ 6300 customers on a 1000 terabytes ISCSI SAN running 3x Dell Power Connect M6348 storage switches and 5x Dell PS 6610 EqualLogic arrays<br>
-**Period** - Jan - Mar 2020 <br>
-**Challenges Experienced** 
- - Maintenance and monitoring of storage and compute required dedicated resources. Most of the time active/standby controllers would fail affecting all VMs that have 
-  their vmdks stored on that array. A power cycle of the VMs would be required as vms went into invalid or inconsistent states<br>
- 
-**References** - Lancelot Nyachoto |  [Email](mailto:LNyachoto@cassavasmartech.com) <br>
-
-<hr style="border:1px solid gray"> </hr>
 
 **Organisation** - [Cassava | Zimbabwe](https://www.cassavasmarttech.co.zw/)<br>
 **Existing Environment** - With existing operations spanning econet and ecocash Zimbabwe , the data science department was formed to establish a unified analytics pla
@@ -97,30 +84,7 @@ tform using on-premises servers and 3rd party software. <br>
  
 **References** -Wellington Tsamasuo [Email](mailto:wellington.tsamasuo@stewardbank.co.zw) <br>
  <hr style="border:1px solid gray"> </hr>
- 
- **Organisation** - [Edgars Pvt Ltd | Zimbabwe](https://www.edgars.co.zw/)<br>
-**Existing Environment** - Environment comprised of exchange 2013 servers using mimecast for spam filtering <br>
-**Requirements. Planned Changes** - Migrate all mailboxes to the cloud and still utilise mimecast for spam filtering. <br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - My first hybrid setup , i never anticipated that having mimecast routing the emails (3rd party software) which is outside the perimeter network was going to complicate 
-  my life. I was cautious but the email routing was confusing. The firewall was configured to block any spoofing attempts (mimecast trying to deliver same domain emails)
-  originating outside the trusted IP block. We ended up configuring customer rules for different mail routing scenarios.<br>
-  
-**References** - Mbuso Ndlovu | [Email](mailto:M.Ndlovu@edgars.co.zw) <br>
-<hr style="border:1px solid gray"> </hr>
- 
- **Organisation** - [Datlabs | Zimbabwe](https://www.datlabs.co.zw/)<br>
-**Existing Environment**  Environment comprised of 2 Exchange 2013 servers and 2 Active Directory servers <br>
-**Requirements. Planned Changes** - Configure a Hybrid setup for both AD and Exchange on-premise and migrate mailboxes for executives to the cloud and leave 
-every other mailbox on-premise<br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - After we were done testing all the email routing scenarios and moved a couple of test mailboxes  , the client had been sold a dummy. Account manager had told the client that even if the on-premise server
- goes down , email routing wont be affected. (MX records were not pointing to the cloud) <br>
- 
-**References** -  <br>
-<hr style="border:1px solid gray"> </hr>
+
  
  **Organisation** - [Zimre Holdings | Zimbabwe](https://www.zimre.co.zw/)<br>
 **Existing Environment** - On-premise environment comprised of VMware servers running business applications. Some of the applications were intergrated to the on-premise AD
@@ -147,7 +111,7 @@ Sophos firewall for terminating Azure VPNs <br>
 **References** - Taremeredzwa Chipepera [Email](mailto:taremeredzwa.ch@rtg.co.zw) <br>
 <hr style="border:1px solid gray"> </hr>
  
- **Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
+**Organisation** - [Civil Aviation Authority Of Bostwana | Botswana](https://www.caab.co.bw/)<br>
 **Existing Environment** - HyperV environment , ASA firewall , Physical servers<br>
 **Requirements. Planned Changes** - Configured a disaster recovery (Azure Site Recovery (ASR)) and Azure Backup (MABS) setup to provide a remote BCDR plan as 
 required by audit   <br>
@@ -159,17 +123,6 @@ required by audit   <br>
 **References** -  ontlametse tsumake | [Email](mailto:otsumake@caab.co.bw)  <br>
 <hr style="border:1px solid gray"> </hr>
  
- **Organisation** - [Morupule Coal Mine (MCM) | Botswana](https://www.mcm.co.bw/)<br>
-**Existing On-premise Environment** - Enviroment comprised of business applications running on VMware <br>
-**Requirements. Planned Changes** - Backup all servers to Azure<br>
-**Period** - Mar - Jul 2020 <br>
-**Challenges Experienced** 
- - Client had other vendors (veeam and Solarwinds) also executing their backups which conflicted with Azure MABS software while trying to backup the same servers. Kept 
- getting stuck half way through. MABS was using the VMware vCenter API to connect to backup the server. We ended up backing up the servers by connecting directly to the
- server(s).<br>
- 
-**References** - Banachaba, Peter | [Email](mailto:pbanachaba@mcm.co.bw)   <br>
-<hr style="border:1px solid gray"> </hr>
  
  **Organisation** - [Africom | Zimbabwe](https://www.africom.co.bw/)<br>
 **Existing On-premise Environment** - Enviroment comprised of decentralised bind servers where configurations were supposed to be done manually to all 4 servers 
@@ -199,7 +152,6 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
  
 ## 📌 On The Side
 
-🏳️‍🌈 **SentScore** - A sentiment analysis project utilising pandas , kafka , Twitter and MongoDB. [https://github.com/chamambom/SentScore]  _(Jan 2021 - Present)_<br>
 🏳️‍🌈 Automated local .co.zw domain registrations [https://github.com/chamambom/regdns-txt] <br>
 🏳️‍🌈 Automated subscriber network provisioning - [https://github.com/chamambom/python_to_text] <br>
 🏳️‍🌈 Automated VMware instance deployment using puppet/foreman - [https://github.com/chamambom/mypuppet-lab]<br>
@@ -208,23 +160,6 @@ each with teamed interfaces connecting to 30 TBs of storage made from commodity 
   
 <hr style="border:1px solid gray"> </hr>
 
-## 🎤 Most Difficult customers (my testimonies)
-🐻 Ever worked with a customer who has an I.T department which doesnt know how their applications ,network and servers are configured ? <br>
-🐻 Customers with an I.T department reporting to the finance department ? where justification is required from the service provider on why we must do the project? <br>
-🐻 Customers with that I.T Guy who will change stuff during project execution and when stuff stops working deny that he ever touched anything ? <br>
-🐻 Customers with that I.T guy who doesnt pay attention during project execution - Only to take you back to square one during project handover? <br>
-🐻 Customers who dont want to pay for a managed service support contract but will continue to bother you anyway and always get away with it ? <br>
-🐻 Customers who always blame the service provider so as to get the service provider to do it for free ? <br>
-🐻 Customers who are so deep in processes it takes months to get access to their environment to start a project ? <br>
-🐻 Customers with a bureaucratic system where departments are so isolated - the service provider has to talk to each department to get stuff done ? <br>
-
-
-🏳️‍🌈 **Well you are out of luck -  customer always wins - deal with it** 
-
-
-
-<hr style="border:1px solid gray"> </hr>
-  
 ## 💬 Languages
 
 **English**: Proficient <br>
