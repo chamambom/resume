@@ -1,11 +1,11 @@
 # Martin Chamambo
 
-_Cloud Operations Engineer (sometimes i wear my data analyst hat) based in Wellington, New Zealand_ <br>
+Senior Cloud Engineer based in Wellington, New Zealand_ <br>
 
 [LinkedIn](https://www.linkedin.com/in/chamambom/) / [GitHub](https://github.com/chamambom/)
 
 ## 🏆 Projects | Accomplishments
-_This section accounts for some of my high value (reducing cost and operational complexity) projects where i made an impact ._
+_This section accounts for some of my high value (reducing cost & operational complexity) projects where i made an impact ._
 <br>
 <hr style="border:1px solid gray"> </hr>
 
